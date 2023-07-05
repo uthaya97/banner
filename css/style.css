@@ -1,0 +1,102 @@
+* {padding:0;
+	margin:0;
+	box-sizing:border-box;
+}
+#banner{
+	background-image:url(../images/image1.jpg);
+	height:100vh;
+	background-position:center;
+	background-size:cover;
+}
+.container{
+	width:40%;
+	height:100vh;
+	/*background-color:#4a5975;*/
+	color:#f0f5fa;
+	padding:40px;
+}
+h1{
+	font-size:60px;
+	color:#f0f5fa;
+	padding:50px 0;
+}
+.para{
+	border-left:2px solid #78d6f5;
+	padding:15px;
+}
+.btn{
+	padding:40px 0;
+	
+}
+button{
+	padding:10px 30px;
+	background-color:#46d4d1;
+	border-radius:30px;
+	margin-right:10px;
+
+}
+i{
+	width:25px;
+	height:25px;
+	border: 2px solid ;
+	border-radius: 50px;
+	color:#46d4d1;
+	font-size:20px;
+	text-align:center;
+}
+.btn meta{
+	padding:20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.college-col{
+	width:31.70%;
+	box-shadow:0 0 2px 0;
+	margin:10px;
+	background-color:#e6e1d3;
+}
+.container1{
+	width:100%;
+    margin:auto;
+    }
+.college-row{
+	width:100%;
+	/*display:flex:*/
+	/*flex-wrap:wrap;*/
+	background-color:#ffe4c4;
+}
+.sports{
+	position:relative;
+}
+.sports h1{
+	background-color:white;
+	width:50%;
+	padding:10px;
+	text-align:center;
+	
+	position:absolute;
+	bottom:30px;
+	left:20px;
+	display:none;
+}
+ img:hover + h1{
+	display:block;
+}
+h1{
+	opacity:0.5;
+}
